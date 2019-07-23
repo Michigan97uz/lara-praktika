@@ -8,25 +8,27 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
+import 'jquery';
+import 'popper.js';
+import 'bootstrap';
+import 'gentelella/vendors/fastclick/lib/fastclick';
+import 'gentelella/vendors/nprogress/nprogress';
+import 'gentelella';
+import Vue from 'vue';
+import App from './App';
+import router from './router';
 
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+Vue.config.productionTip = false;
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+require('gentelella/vendors/bootstrap/dist/css/bootstrap.min.css');
+require('gentelella/vendors/font-awesome/css/font-awesome.min.css');
+require('gentelella/vendors/nprogress/nprogress.css');
+require('gentelella/build/css/custom.min.css');
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app',
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>',
 });

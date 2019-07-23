@@ -1,0 +1,18 @@
+{
+    "/js/app.js": "/js/app.js?id=48abd2372de119dfd7ff",
+    "/css/app.css": "/css/app.css?id=4083f5d376eb849a458c",
+    "/css/bootstrap-datetimepicker.css": "/css/bootstrap-datetimepicker.css?id=0bca3d16b29eb93ae459",
+    "/js/bootstrap-datetimepicker.js": "/js/bootstrap-datetimepicker.js?id=8a36160a466cad1a9e41",
+    "/js/echarts.js": "/js/echarts.js?id=fcc2e5dffc67166e1f39",
+    "/js/forms.js": "/js/forms.js?id=a9e46238888b5561060a",
+    "/admin/js/admin.js": "/admin/js/admin.js?id=603636c84e2caf995d2c",
+    "/admin/css/admin.css": "/admin/css/admin.css?id=2cfae4452accc0c9db93",
+    "/admin/js/users/edit.js": "/admin/js/users/edit.js?id=b16e217d567d3783bc58",
+    "/admin/css/users/edit.css": "/admin/css/users/edit.css?id=893d8c33a970af7d9c7f",
+    "/admin/js/dashboard.js": "/admin/js/dashboard.js?id=a1a38a49b6e24c820b18",
+    "/admin/css/dashboard.css": "/admin/css/dashboard.css?id=4d2c654db7b801e213d5",
+    "/auth/css/login.css": "/auth/css/login.css?id=d41d8cd98f00b204e980",
+    "/auth/css/register.css": "/auth/css/register.css?id=d41d8cd98f00b204e980",
+    "/auth/css/passwords.css": "/auth/css/passwords.css?id=d41d8cd98f00b204e980",
+    "/auth/css/auth.css": "/auth/css/auth.css?id=36b3005d23ec4d5916b5"
+}
